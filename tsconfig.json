@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",                         // Target ECMAScript 5 (for compatibility with older browsers)
+    "lib": ["dom", "es2015"],                // Include DOM and ES2015 libraries for browser support
+    "jsx": "react",                          // Set JSX option to "react" for React support
+    "moduleResolution": "node",              // Use Node.js-style module resolution
+    "esModuleInterop": true,                 // Enable compatibility between CommonJS and ES Modules
+    "allowJs": true,                         // Allow JavaScript files to be compiled
+    "skipLibCheck": true,                    // Skip type checking of declaration files for performance
+    "strict": true,                          // Enable all strict type checking options
+    "forceConsistentCasingInFileNames": true // Enforce consistent file naming case
+  },
+  "include": [
+    "src/**/*" // Include all TypeScript files in the src folder
+  ],
+  "exclude": [
+    "node_modules" // Exclude the node_modules directory
+  ]
+}
